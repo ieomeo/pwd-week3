@@ -28,7 +28,7 @@ npm run build
 
 ---
 
-## 3. 주요 동작 및 담당 파일·함수 정리 (Step 7 실습 결과)
+## 3. 주요 동작 및 담당 파일·함수 정리
 
 * **사칙연산 계산**: `operations.ts`의 `add`, `subtract`, `multiply`, `divide`, `calculate` 함수가 담당하며 12 + 3 = 15, 12 / 3 = 4와 같이 정확한 계산 결과를 반환합니다.
 * **0 나누기 오류 처리**: `operations.ts`의 `divide` 함수 및 `calculator.ts`의 `handleKey` (try-catch) 구조가 담당하며 12 / 0 = 입력 시 Error 및 "0으로 나눌 수 없습니다." 예외 메시지를 표시합니다.
